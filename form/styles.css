@@ -10,9 +10,9 @@
 body{
     background: green;
     font-family: 'Montserrat';
-    background-image: url(campo-fundo1.jpg);
+    background-image: url(campo-fundo.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     min-height: 100vh;
     object-fit: cover;
 }

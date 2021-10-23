@@ -9,5 +9,4 @@ function enviar()
     {
         window.alert("Por favor, preencha os campos obrigatórios\nNome;\nTime;\nTime estrangeiro.")
     }
-    
 }    
