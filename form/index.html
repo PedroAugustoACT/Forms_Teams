@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Formulário Times</title>
+</head>
+<body>
+    <header>
+        <p class="title">Torcidas no Brasil<p>
+    </header>
+    
+    <section>
+        <div>
+            <h1>
+                <p>Nome</p>
+                <div class="inputBox">
+                    <input type="text" class="txtinput" required="required" id="txtname">
+                </div>
+                    
+            </h1>
+            <h1>
+                <p>Idade (opcional)</p>
+                <div class="inputBox">
+                    <input type="number" class="txtinput" id='txtage'>
+                </div> 
+            </h1>
+            <h1>
+                <p>Sua região do Brasil</p>
+                <select name="regioes">
+                    <option value="norte">Norte</option>
+                    <option value="nordeste">Nordeste</option>
+                    <option value="centrooeste">Centro-Oeste</option>
+                    <option value="sudeste">Sudeste</option>
+                    <option value="sul">Sul</option>
+                    <option value="estrangeiro">Fora do Brasil</option>
+                </select>
+                
+            </h1>
+            <h1>
+                <p>Você torce para um time da sua região?</p>
+                <form>
+                    <input type="radio" id="sim" name="torce_regiao" value="sim">
+                    <label for="sim">Sim</label><br>
+                    <input type="radio" id="nao" name="torce_regiao" value="nao">
+                    <label for="nao">Não</label>
+                </form>
+            </h1>
+            <h1>
+                <p>Qual(is) a(s) sua(s) maior(es) influência(s) na hora de escolher seu time?</p>
+                <form name="influencias">
+                    <input type="checkbox" id="influência_1" name="influência" value="influência_1">
+                    <label for="influência_1">Família</label><br>
+                    <input type="checkbox" id="influência_2" name="influência" value="influência_2">
+                    <label for="influência_1">TV</label><br>
+                    <input type="checkbox" id="influência_3" name="influência" value="influência_3">
+                    <label for="influência_1">Torcida</label><br>
+                    <input type="checkbox" id="influência_4" name="influência" value="influência_4">
+                    <label for="influência_1">Amigos</label><br>
+                    <input type="checkbox" id="influência_5" name="influência" value="influência_5">
+                    <label for="influência_1">Títulos</label><br>
+                    <input type="checkbox" id="influência_6" name="influência" value="influência_6">
+                    <label for="influência_1">História</label>
+                </form>
+            </h1>
+            <h1>
+                <p>Time que torce</p>
+                <div class="inputBox">
+                    <input type="text" class="txtinput" id="txtteam"> 
+                </div>
+            </h1>
+            <h1>
+                <p>Torce para algum time estrangeiro?</p>
+                <form>
+                    <input type="radio" id="misto" value="sim">
+                    <label for="sim">Sim</label><br>
+                    <input type="radio" id="misto" value="nao">
+                    <label for="nao">Não</label><br>
+                </form>
+            </h1>
+            <h1>
+                <p>Time Estrangeiro</p>
+                <div class="inputBox">
+                    <input type="text" class="txtinput" id="txtteam2">
+                </div>
+                 
+            </h1>
+            <input type="button" class="button" value= "Enviar" onclick="enviar()"></button>
+        </div>
+    </section>
+    <footer>
+        <p class="foot">Powered by Pedro Augusto &copy;</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

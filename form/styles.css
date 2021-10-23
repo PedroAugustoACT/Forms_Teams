@@ -1,0 +1,93 @@
+:root{
+    --green: #49AA26;
+    --light_green: #3dd705;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: green;
+    font-family: 'Montserrat';
+    background-image: url(campo-fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    object-fit: fill;
+}
+
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.301);
+}
+.txtinput{
+    width: 95%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 50px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+select{
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+form{
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.button{
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background: var(--green);
+    padding: 0;
+    border-radius: 0.25rem;
+    margin-top: 3%;
+    margin-left: 3%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    background: var(--light_green);
+    }
+
+.inputBox{
+    display: flex;
+    justify-content: center;
+    }
+
+.foot{
+    color:blanchedalmond;
+    text-align: center;
+    font-size: 12px;
+}
